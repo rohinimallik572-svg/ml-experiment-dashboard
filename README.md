@@ -22,7 +22,11 @@ This project provides an interactive dashboard to:
 
 ## ▶️ How to Run
 
-1. Clone the repo
 ```bash
-git clone https://github.com/your-username/ml-experiment-dashboard.git
+git clone https://github.com/rohinimallik572-svg/ml-experiment-dashboard.git
 cd ml-experiment-dashboard
+pip install -r requirements.txt
+streamlit run app.py
+
+## 📸 Dashboard Preview
+(Add screenshot here)
