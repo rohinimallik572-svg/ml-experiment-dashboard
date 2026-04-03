@@ -1,29 +1,28 @@
 # 🚀 ML Experiment Tracking Dashboard
 
-## 📌 Overview
-Machine learning experiments generate multiple runs with different metrics like accuracy, loss, and runtime. Tracking and comparing these manually becomes inefficient.
+## 📌 Problem
+Machine learning experiments generate multiple runs with metrics like accuracy, loss, and runtime.  
+Tracking and comparing them manually becomes messy and inefficient.
 
-This project provides an interactive dashboard to visualize and analyze ML experiments efficiently.
-
----
-
-## ⚙️ Features
-- 📊 View experiment results in tabular format  
-- 📈 Visualize accuracy trends across runs  
-- 🏆 Automatically identify best-performing run  
-- 🔍 Filter and inspect individual experiment runs  
-- ⚡ Real-time interactive dashboard using Streamlit  
+## 💡 Solution
+This project provides an interactive dashboard to:
+- Track multiple experiment runs
+- Compare model performance
+- Identify best-performing models quickly
 
 ---
 
 ## 🛠 Tech Stack
-- Python  
-- Streamlit  
-- Pandas  
+- Python
+- Streamlit
+- Pandas
+- Matplotlib / Plotly (if used)
 
 ---
 
-## 🚀 How to Run
+## ▶️ How to Run
+
+1. Clone the repo
 ```bash
-pip install streamlit pandas
-streamlit run app.py
+git clone https://github.com/your-username/ml-experiment-dashboard.git
+cd ml-experiment-dashboard
