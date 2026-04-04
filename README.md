@@ -1,5 +1,5 @@
 # 🚀 ML Experiment Tracking Dashboard
-
+![Dashboard Ss](screenshot.png)
 ## 📌 Problem
 Machine learning experiments generate multiple runs with metrics like accuracy, loss, and runtime.  
 Tracking and comparing them manually becomes messy and inefficient.
